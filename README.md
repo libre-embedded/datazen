@@ -1,29 +1,22 @@
 <!--
     =====================================
     generator=datazen
-    version=3.1.5
-    hash=05d951a1cf7e3be624f8036bce30271d
+    version=3.2.1
+    hash=7f2b07f6a5754808b88d96c7fa1a6b8a
     =====================================
 -->
 
-# datazen ([3.2.0](https://pypi.org/project/datazen/))
+# datazen ([3.2.1](https://pypi.org/project/datazen/))
 
 [![python](https://img.shields.io/pypi/pyversions/datazen.svg)](https://pypi.org/project/datazen/)
-![Build Status](https://github.com/vkottler/datazen/workflows/Python%20Package/badge.svg)
-[![codecov](https://codecov.io/gh/vkottler/datazen/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/vkottler/datazen)
+![Build Status](https://github.com/libre-embedded/datazen/workflows/Python%20Package/badge.svg)
+[![codecov](https://codecov.io/gh/libre-embedded/datazen/branch/master/graphs/badge.svg?branch=master)](https://codecov.io/github/libre-embedded/datazen)
 ![PyPI - Status](https://img.shields.io/pypi/status/datazen)
 ![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/pypi/datazen)
 
 *Compile and render schema-validated configuration data.*
 
-## Documentation
-
-### Generated
-
-* By [sphinx-apidoc](https://vkottler.github.io/python/sphinx/datazen)
-(What's [`sphinx-apidoc`](https://www.sphinx-doc.org/en/master/man/sphinx-apidoc.html)?)
-* By [pydoc](https://vkottler.github.io/python/pydoc/datazen.html)
-(What's [`pydoc`](https://docs.python.org/3/library/pydoc.html)?)
+([interface documentation](https://libre-embedded.github.io/python/datazen))
 
 ## Python Version Support
 
