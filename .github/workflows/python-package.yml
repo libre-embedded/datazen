@@ -74,7 +74,7 @@ jobs:
 
       - run: |
           mk python-release owner=libre-embedded \
-                            repo=datazen version=3.2.1
+                            repo=datazen version=3.2.2
         if: |
           matrix.python-version == '3.12'
           && matrix.system == 'ubuntu-latest'
