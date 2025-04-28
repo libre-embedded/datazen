@@ -2,11 +2,11 @@
     =====================================
     generator=datazen
     version=3.2.2
-    hash=68049323eaf9b3c402324e1a847918be
+    hash=c9cfa7917408264a23e328ad35361c5f
     =====================================
 -->
 
-# datazen ([3.2.2](https://pypi.org/project/datazen/))
+# datazen ([3.2.3](https://pypi.org/project/datazen/))
 
 [![python](https://img.shields.io/pypi/pyversions/datazen.svg)](https://pypi.org/project/datazen/)
 ![Build Status](https://github.com/libre-embedded/datazen/workflows/Python%20Package/badge.svg)
@@ -15,6 +15,8 @@
 ![Dependents (via libraries.io)](https://img.shields.io/librariesio/dependents/pypi/datazen)
 
 *Compile and render schema-validated configuration data.*
+
+Consider [sponsoring development](https://github.com/sponsors/libre-embedded).
 
 ([interface documentation](https://libre-embedded.github.io/python/datazen))
 
