@@ -1,12 +1,12 @@
 <!--
     =====================================
     generator=datazen
-    version=3.2.2
-    hash=c9cfa7917408264a23e328ad35361c5f
+    version=3.2.4
+    hash=253c0964ea2445c99cbcbc8c0d0210a1
     =====================================
 -->
 
-# datazen ([3.2.3](https://pypi.org/project/datazen/))
+# datazen ([3.2.4](https://pypi.org/project/datazen/))
 
 [![python](https://img.shields.io/pypi/pyversions/datazen.svg)](https://pypi.org/project/datazen/)
 ![Build Status](https://github.com/libre-embedded/datazen/workflows/Python%20Package/badge.svg)
@@ -24,8 +24,8 @@ Consider [sponsoring development](https://github.com/sponsors/libre-embedded).
 
 This package is tested with the following Python minor versions:
 
-* [`python3.12`](https://docs.python.org/3.12/)
 * [`python3.13`](https://docs.python.org/3.13/)
+* [`python3.14`](https://docs.python.org/3.14/)
 
 ## Platform Support
 
@@ -60,7 +60,7 @@ templates, or just rendering final sets of serialized data.
 # Usage
 
 ```
-$ ./venv3.12/bin/dz -h
+$ ./venv3.14/bin/dz -h
 
 usage: dz [-h] [--version] [-v] [-q] [--curses] [--no-uvloop] [-C DIR]
           [--line-ending {unix,dos,unix}] [-m MANIFEST] [-c] [--sync] [-d]
@@ -78,10 +78,10 @@ options:
   -q, --quiet           set to reduce output
   --curses              whether or not to use curses.wrapper when starting
   --no-uvloop           whether or not to disable uvloop as event loop driver
-  -C DIR, --dir DIR     execute from a specific directory
+  -C, --dir DIR         execute from a specific directory
   --line-ending {unix,dos,unix}
                         line-ending option to use by default (default: 'unix')
-  -m MANIFEST, --manifest MANIFEST
+  -m, --manifest MANIFEST
                         manifest to execute tasks from (default:
                         'manifest.yaml')
   -c, --clean           clean the manifest's cache and exit
